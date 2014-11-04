@@ -767,6 +767,24 @@
                 "name": "StackedAreaLabeler",
                 "size": 3
             }]
+        }, {
+            "name": "Visualization",
+            "children": [{
+                "name": "Babeler",
+                "sharedChild": [{
+                    "name": "Tabeler",
+                    "size": 1
+                }]
+            }, {
+                "name": "RadialLabeler",
+                "sharedChild": [{
+                    "name": "Tabeler",
+                    "size": 1
+                }]
+            }, {
+                "name": "StackedAreaLabeler",
+                "size": 3
+            }]
         }]
     }]
 }
